@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+	margin: 0px;
+	padding: 0;
+}
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	
+}
+#page-wrapper{
+	position: relative;
+}
+#header{
+	
+	display: flex;
+	margin: 0;
+	padding-top: 10px;
+	background: #0F1440;
+	max-width: 100%;
+	align-items: center;
+	top: 0;
+	z-index: 5;
+}
+#logo{
+	margin-left:50px;
+}
+#hamburger-icon{
+	margin-left: 1500px;
+	position: relative;
+	
+}
+#nav-bar ul{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	//justify-content: center;
+	//align-items: center;
+	margin-top: -20px;
+	list-style-type: none;
+	//background: red;
+	
+}
+#nav-bar ul li a{
+	margin-left: 50px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+#hamburger-icon{
+	position: absolute;
+	margin-left: 95%;
+}
+#hero{
+	background-image: url("./npl-img/chinhthuc.png");
+	height: 500px;
+  	background-position: center;
+	//position: relative;
+	//display: flex;
+}
+#hero #wapper-hero{
+	//position: relative;
+	margin-top: 0px;
+	width: 100%;
+}
+#hero #wapper-hero h2{
+	margin-top: 50px;
+	margin-left: 70px;
+	font-size: 3em;
+	max-width: 750px;
+	color: white;
+	border-bottom: 2px solid #4C63E8;
+	position: absolute;
+}
+#computer{
+	margin-top: -350px;
+	margin-right: 50px;
+	max-width: calc(100%/2);
+	position: relative;
+	float: right;
+}
+
+#hero h3{
+	margin-top: 250px;
+	margin-left: 70px;
+	max-width: 600px;
+	color: white;
+	position: absolute;
+}
+#bnt-started{
+	margin-top: 350px;
+	height: 45px;
+	margin-left: 70px;
+	width: 280px;
+	border: 0 solid #1A93DE;
+	border-radius: 100px 100px;
+	background: #1A93DE;
+}
+#flatform{
+	margin-top: 50px;
+	color: black;
+}
+#main-flatform div h2{
+	color: black;
+	position: relative;
+}
+#main-flatform div p{
+	max-width: 360px;
+}
+#main-flatform #fee p{
+	max-width: 300px;
+}
+#main-flatform div{
+	display: flex;
+	margin-top: 20px;
+	
+}
+#main-flatform{
+	width: 100%;
+ 	display: flex;
+    flex-direction: row;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+ 	justify-content: center;
+	
+	
+}
+#real-time, #address , #fee{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	width: calc(80%/3);
+	margin: 0px 30px;
+}
+#main-flatform .box-real .logo{
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2); 
+	padding: 10px;
+	transition: all 0.5s 0s ease-out;
+	margin-bottom: 20px;
+}
+#main-flatform .box-real .logo:hover{
+	box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.2);
+	padding-top: 5px;
+	
+}
+#title-flatform{
+	font-size: 2.5em;
+	text-align: center;
+	margin: 0px 130px;
+	padding: 40px 0;
+	font-weight: bold;
+	border-bottom: 1.5px solid #0F1440;
+	
+	
+}
+#flash-mode{
+	background: #0F1440;
+	color: white;
+	height: 580px;
+	padding: 20px;
+	margin: 50px 0;
+	position: relative;
+	
+}
+#flash-mode ul{
+	margin: 50px 100px;
+	font-size: 20px;
+	width: calc(100%/2.8);
+}
+#flash-mode ul li {
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+#flash-mode #desc{
+	margin: 10px 80px;
+	max-width: 1200px;
+}
+#flash-mode #desc p{
+	font-weight: bold;
+	font-size: 20px;
+}
+#flash-mode #wrapper-flash #flash-img{
+	margin-top: 25px;
+	margin-left: -50px;		
+	//float: right;
+	height: 420px;
+	width: calc(100%/2);
+	
+}
+#flash-mode #wrapper-flash{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;	
+}
+#chart-flash{
+	margin: 10px 0px;
+	
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	
+	
+	text-align: left;
+	width: 100%;
+	
+}
+.section-chart{
+	margin: 0 10px;
+	display: flex;
+	align-content: center;
+	align-items: flex-end;
+	width: calc(80%/4);
+	
+}
+.section-chart .red{
+	color: red;
+}
+.section-chart .green{
+	color: green;
+}
+.section-chart .data h1{
+	font-size: 30px;
+}
+.section-chart .chart{
+	margin-left: 5px;
+	padding-right: 10px;
+	border-right: 1.5px solid #0F1440;
+}
+#out-strength{
+	margin-top: 100px;
+	
+}
+#out-strength #strength h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+	margin : 20px 80px;
+	border-bottom: 1.5px solid #2E4D91;
+}
+#out-strength #strength{
+	
+	margin: 100px 0;
+	
+	
+}
+#out-strength ul{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	border-bottom: 1.5px solid #D1F4F8;
+	
+}
+#out-strength ul li{
+	width: calc(90%/5);
+}
+
+#out-strength ul li img{
+	margin-bottom: 20px;
+}
+#exchange{
+	height: 550px;
+	background-image: url("./npl-img/chinhthuc1.png");
+	background-position: center;
+	width: 100%;
+	position: relative;
+	margin-top: 50px;
+}
+#exchange #phone{
+	margin: 70px 180px;
+	float: right;
+	max-width: calc(100%/2);
+	position: relative;
+}
+#exchange #exchange-desc{
+	margin: 100px 200px;
+	width: calc(100%/2);
+	color: white;
+	position: absolute;
+}
+#exchange #exchange-desc p{
+	margin-top : 40px;
+	font-size: 20px;
+}
+#exchange #exchange-desc h2{
+	font-size: 50px;
+	padding-bottom: 40px;
+	border-bottom: 1.5px solid #0A55D8;
+}
+#why-choose{
+	margin: 50px 100px 0 100px;
+}
+#why-choose #section .box h3{
+	margin-bottom: 10px;
+	color: #0D176D;
+	
+}
+#why-choose #section .box .img-box{
+	width: 70px;
+	height: 70px;
+	
+}
+#why-choose #section .box{
+	max-width: calc(100%/4);
+	height: auto;
+	//display: flex;
+	margin: 50px 50px;
+	font-weight: bold;
+	
+}
+#why-choose #section .box .box-desc{
+	//margin-left: 30px;
+	color: #6F7AAC;
+}
+#why-choose #section{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+#why-choose h1{
+	padding-bottom: 30px;
+	font-size: 30px;
+	text-align:center;
+	
+	margin: 0 70px;
+	
+}
+#pricing{
+	background: #0F1440;
+}
+#pricing #wrapper-pricing{
+	
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	margin: 50px 0;
+	height: 150px;
+	margin-left: 150px;
+}
+#pricing #wrapper-pricing .section-price{
+	
+	width: calc(100%/4.3);
+}
+#pricing .section-price h2{
+	color: #07D3EC;
+	text-align: justify;
+	font-size: 30px;
+	
+}#pricing .section-price h1{
+	color: white;
+	font-size: 35px;
+	text-align: justify;
+	border-right: 1.5px solid #EFEFEF;
+	margin-right: 170px;
+	//padding-right: 70px;
+	
+}
+
+#get-started{
+	text-align: center;
+	margin: 80px 0;
+}
+#get-started #logos{
+	display: flex;
+	align-content: center;
+	align-items: center;
+ 	justify-content: center;
+	
+}
+#get-started #logos .section-logo{
+	margin: 100px 100px;
+	width: calc(100%/3);
+	justify-content: center;
+}
+#get-started h2{
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+#get-started h3{
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+#get-started p{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0 50px;
+}
+#get-started h1{
+	font-size: 45px;
+	margin: 15px 0;
+	font-weight: bolder;
+}
+#get-btn{
+	height: 40px;
+	width: 250px;
+	border: 0 solid #1A93DE;
+	border-radius: 100px 100px;
+	background: #18E3EA;
+	margin: 30px 0;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+footer{
+	display: flex;
+	background: #0F1440;
+	color: white;
+	list-style-type: none;
+	margin-top: 50px;
+	width: 100%;
+}
+footer #logo-footer {
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+}
+footer #logo-footer img{
+	width: 50%;
+	margin-bottom: 30px;
+}
+footer #logo-footer p{
+	font-size: 12px;
+	font-weight: 100;
+	
+}
+footer #ul{
+	display: flex;
+	list-style-type: none;
+	float: right;
+	position: relative;
+	//margin-right: 0px;
+	width: calc(100%/2);
+	margin-left: 250px;
+}
+footer #ul .li{
+	margin-left: 0px;
+	margin-top: 30px;
+	list-style-type: none;
+	width: calc(100%/4);
+}
+footer #ul .li ul li{
+	list-style-type: none;
+}
+footer #ul .li p{
+	font-size: 15px;
+	color: #C0C0C0;
+	margin-bottom: 10px;
+}
+
+#box{
+    position: fixed;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+    background: #367AA4;
+    border: 1px solid #367AA4;
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 70%;
+    
+}
+#box-extends{
+    position: fixed;
+    margin-left: 65.2%;
+    width: 250px;
+    border: 0.5px solid #E4E6E8;
+    border-bottom: none;
+    bottom: 0px;    
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+#box-extends #header-box{
+    border-radius: 5px 5px 0 0;
+    background: #367AA4;
+    border: 1px solid #367AA4;
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    height: 40px;
+    display: flex;    
+    align-items: center;
+}
+#box-extends #header-box #close{
+    margin-left: 70px;
+    background: #367AA4;
+    border: 0;
+    display: block;
+}
+#box-extends #header-box #onl{
+    margin-left: 10px;
+    background: #367AA4;
+    border: 0;
+}
+#box-extends #form{
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 0.5px solid #E4E6E8;
+    width: 220px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    background: white;
+    
+}
+#box-extends #form input{
+    border: 2.5px solid #C7C8C9;
+    border-radius: 6px;
+    width: 200px;
+    margin: 5px;
+    height: 30px;
+    text-align: left;
+    background: white;
+}
+#box-extends #submit{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background: #367AA4;
+    border : 0px solid ;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    
+}
+#box-extends #submit:hover{
+    background: #A1D3F1;
+    color: #367AA4;   
+}
+
+@media only screen and (max-width: 1400px){
+	.section-chart{
+		width: calc(90%/4);
+	}
+	#why-choose #section .box{
+		max-width: calc(100%/2.5);
+		margin: 30px 35px;
+	}
+	#pricing #wrapper-pricing{
+	margin-left: 50px;
+	}
+	#pricing .section-price h1{
+		margin-right: 40px;
+	}
+	#hero #computer img{
+	width: 300px;
+	height: 250px;
+	margin-top: 80px;
+	
+	}
+	#flash-mode #wrapper-flash #flash-img{
+	
+		width: calc(100%/1.8);
+		height: 300px;
+	}
+	#flash-mode ul{
+		margin: 50px 50px;
+		font-size: 20px;
+		width: calc(100%/2.8);
+	}
+	#flash-mode ul li {
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	#flash-mode #desc{
+		margin-left: 50px;
+	}
+	#exchange #phone img{
+	margin: 70px 30px;
+	float: right;
+	margin-right: -30px;
+	position: relative;
+	max-width: calc(100%/1.5);
+	
+}
+#exchange #exchange-desc{
+	margin: 150px 150px;
+	width: calc(100%/2);
+	
+}
+}
+
+
